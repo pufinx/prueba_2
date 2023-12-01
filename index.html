@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>prueba_renta</title>
+</head>
+<body>
+<h1>calcular_renta </h1>
+<p>
+<div>
+<h3>nombre</h3><span id = "nombre"></span>
+<h3>renta</h3>$<span id = "renta"></span>
+<h3>tipo_de_contrato</h3>    honorario <input type ="radio" id="rhonorario" name="contrato" value="honorario" >
+                plazo_fijo/indefinido  <input type="radio"  id="rplazo" name="honorario"    value="plazo_fijo/indefinido">
+</div>
+
+</p>
+<p>
+<h3>valor_liquido_a_pagar</h3>$<span id ="total"></span>
+</p>
+
+<button type="button" onclick="calcular()" >Calcular</button>
+<button type="button" onclick="nuevo_calculo()" >Limpiar</button>
+
+
+<script src="assets/js/script.js"></script>
+</body>
+</html> 
